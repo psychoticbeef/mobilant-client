@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03E4643F1374273200621714 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E4643E1374273200621714 /* Cocoa.framework */; };
+		03E464491374273200621714 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03E464471374273200621714 /* InfoPlist.strings */; };
+		03E4644C1374273200621714 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E4644B1374273200621714 /* main.m */; };
+		03E4644F1374273200621714 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 03E4644D1374273200621714 /* Credits.rtf */; };
+		03E464521374273200621714 /* MobilantAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E464511374273200621714 /* MobilantAppDelegate.m */; };
+		03E464551374273200621714 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03E464531374273200621714 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03E4643A1374273200621714 /* Mobilant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mobilant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03E4643E1374273200621714 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		03E464411374273200621714 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		03E464421374273200621714 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		03E464431374273200621714 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03E464461374273200621714 /* Mobilant-Info.plist */ = {isa = PBXFileReference; path = "Mobilant-Info.plist"; sourceTree = "<group>"; };
+		03E464481374273200621714 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03E4644A1374273200621714 /* Mobilant-Prefix.pch */ = {isa = PBXFileReference; path = "Mobilant-Prefix.pch"; sourceTree = "<group>"; };
+		03E4644B1374273200621714 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03E4644E1374273200621714 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		03E464501374273200621714 /* MobilantAppDelegate.h */ = {isa = PBXFileReference; path = MobilantAppDelegate.h; sourceTree = "<group>"; };
+		03E464511374273200621714 /* MobilantAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobilantAppDelegate.m; sourceTree = "<group>"; };
+		03E464541374273200621714 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03E464371374273200621714 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E4643F1374273200621714 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03E4642F1374273200621714 = {
+			isa = PBXGroup;
+			children = (
+				03E464441374273200621714 /* Mobilant */,
+				03E4643D1374273200621714 /* Frameworks */,
+				03E4643B1374273200621714 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03E4643B1374273200621714 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03E4643A1374273200621714 /* Mobilant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03E4643D1374273200621714 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03E4643E1374273200621714 /* Cocoa.framework */,
+				03E464401374273200621714 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03E464401374273200621714 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03E464411374273200621714 /* AppKit.framework */,
+				03E464421374273200621714 /* CoreData.framework */,
+				03E464431374273200621714 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		03E464441374273200621714 /* Mobilant */ = {
+			isa = PBXGroup;
+			children = (
+				03E464501374273200621714 /* MobilantAppDelegate.h */,
+				03E464511374273200621714 /* MobilantAppDelegate.m */,
+				03E464531374273200621714 /* MainMenu.xib */,
+				03E464451374273200621714 /* Supporting Files */,
+			);
+			path = Mobilant;
+			sourceTree = "<group>";
+		};
+		03E464451374273200621714 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03E464461374273200621714 /* Mobilant-Info.plist */,
+				03E464471374273200621714 /* InfoPlist.strings */,
+				03E4644A1374273200621714 /* Mobilant-Prefix.pch */,
+				03E4644B1374273200621714 /* main.m */,
+				03E4644D1374273200621714 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03E464391374273200621714 /* Mobilant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03E464581374273200621714 /* Build configuration list for PBXNativeTarget "Mobilant" */;
+			buildPhases = (
+				03E464361374273200621714 /* Sources */,
+				03E464371374273200621714 /* Frameworks */,
+				03E464381374273200621714 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mobilant;
+			productName = Mobilant;
+			productReference = 03E4643A1374273200621714 /* Mobilant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03E464311374273200621714 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 03E464341374273200621714 /* Build configuration list for PBXProject "Mobilant" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03E4642F1374273200621714;
+			productRefGroup = 03E4643B1374273200621714 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03E464391374273200621714 /* Mobilant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03E464381374273200621714 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E464491374273200621714 /* InfoPlist.strings in Resources */,
+				03E4644F1374273200621714 /* Credits.rtf in Resources */,
+				03E464551374273200621714 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03E464361374273200621714 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E4644C1374273200621714 /* main.m in Sources */,
+				03E464521374273200621714 /* MobilantAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03E464471374273200621714 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03E464481374273200621714 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		03E4644D1374273200621714 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03E4644E1374273200621714 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		03E464531374273200621714 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03E464541374273200621714 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03E464561374273200621714 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		03E464571374273200621714 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		03E464591374273200621714 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mobilant/Mobilant-Prefix.pch";
+				INFOPLIST_FILE = "Mobilant/Mobilant-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		03E4645A1374273200621714 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Mobilant/Mobilant-Prefix.pch";
+				INFOPLIST_FILE = "Mobilant/Mobilant-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03E464341374273200621714 /* Build configuration list for PBXProject "Mobilant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E464561374273200621714 /* Debug */,
+				03E464571374273200621714 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03E464581374273200621714 /* Build configuration list for PBXNativeTarget "Mobilant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E464591374273200621714 /* Debug */,
+				03E4645A1374273200621714 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03E464311374273200621714 /* Project object */;
+}
