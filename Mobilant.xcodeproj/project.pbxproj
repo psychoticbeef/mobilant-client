@@ -7,28 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0331A9E41377DE0300D1ECA7 /* mobilant.icns in Resources */ = {isa = PBXBuildFile; fileRef = 0331A9E31377DE0300D1ECA7 /* mobilant.icns */; };
+		036265C313769C92009A06F5 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 036265C213769C92009A06F5 /* AddressBook.framework */; };
+		0372130813E57BAE00D67CE1 /* validatereceipt.m in Sources */ = {isa = PBXBuildFile; fileRef = 0372130713E57BAE00D67CE1 /* validatereceipt.m */; };
+		038E17FB1377E4740058A818 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 038E17FA1377E4740058A818 /* Security.framework */; };
+		038E17FD1377E47A0058A818 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 038E17FC1377E47A0058A818 /* IOKit.framework */; };
+		038E17FF1377E48F0058A818 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 038E17FE1377E48F0058A818 /* Foundation.framework */; };
+		039F0DFE1375A82C00EECBD2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 039F0DFD1375A82C00EECBD2 /* QuartzCore.framework */; };
+		03C43ED91377B4D900AF5F27 /* MLFieldEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C43ED81377B4D900AF5F27 /* MLFieldEditor.m */; };
+		03E1EC321375E3CA005A54E3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E1EC311375E3C9005A54E3 /* SystemConfiguration.framework */; };
+		03E1EC341375E3DA005A54E3 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E1EC331375E3DA005A54E3 /* libz.dylib */; };
+		03E1EC361375E3ED005A54E3 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E1EC351375E3ED005A54E3 /* CoreServices.framework */; };
+		03E1EC451375F061005A54E3 /* SMSClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E1EC441375F061005A54E3 /* SMSClient.m */; };
+		03E1EC481375F06F005A54E3 /* MobilantClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E1EC471375F06F005A54E3 /* MobilantClient.m */; };
 		03E4643F1374273200621714 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03E4643E1374273200621714 /* Cocoa.framework */; };
 		03E464491374273200621714 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03E464471374273200621714 /* InfoPlist.strings */; };
 		03E4644C1374273200621714 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E4644B1374273200621714 /* main.m */; };
 		03E4644F1374273200621714 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 03E4644D1374273200621714 /* Credits.rtf */; };
 		03E464521374273200621714 /* MobilantAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03E464511374273200621714 /* MobilantAppDelegate.m */; };
 		03E464551374273200621714 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03E464531374273200621714 /* MainMenu.xib */; };
+		03E4645E137427ED00621714 /* 111-user@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 03E4645C137427ED00621714 /* 111-user@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0331A9E31377DE0300D1ECA7 /* mobilant.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = mobilant.icns; sourceTree = "<group>"; };
+		036265C213769C92009A06F5 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		0372130613E57BAE00D67CE1 /* validatereceipt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = validatereceipt.h; sourceTree = "<group>"; };
+		0372130713E57BAE00D67CE1 /* validatereceipt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = validatereceipt.m; sourceTree = "<group>"; };
+		0372130913E57D3400D67CE1 /* Mobilant.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Mobilant.entitlements; sourceTree = "<group>"; };
+		038E17FA1377E4740058A818 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		038E17FC1377E47A0058A818 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		038E17FE1377E48F0058A818 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		039F0DFD1375A82C00EECBD2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		03C43ED71377B4D900AF5F27 /* MLFieldEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MLFieldEditor.h; path = Mobilant.xcodeproj/MLFieldEditor.h; sourceTree = "<group>"; };
+		03C43ED81377B4D900AF5F27 /* MLFieldEditor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MLFieldEditor.m; path = Mobilant.xcodeproj/MLFieldEditor.m; sourceTree = "<group>"; };
+		03E1EC311375E3C9005A54E3 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		03E1EC331375E3DA005A54E3 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		03E1EC351375E3ED005A54E3 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
+		03E1EC431375F061005A54E3 /* SMSClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SMSClient.h; path = Mobilant.xcodeproj/SMSClient.h; sourceTree = "<group>"; };
+		03E1EC441375F061005A54E3 /* SMSClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SMSClient.m; path = Mobilant.xcodeproj/SMSClient.m; sourceTree = "<group>"; };
+		03E1EC461375F06F005A54E3 /* MobilantClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobilantClient.h; sourceTree = "<group>"; };
+		03E1EC471375F06F005A54E3 /* MobilantClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MobilantClient.m; sourceTree = "<group>"; };
 		03E4643A1374273200621714 /* Mobilant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mobilant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03E4643E1374273200621714 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		03E464411374273200621714 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		03E464421374273200621714 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		03E464431374273200621714 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		03E464461374273200621714 /* Mobilant-Info.plist */ = {isa = PBXFileReference; path = "Mobilant-Info.plist"; sourceTree = "<group>"; };
+		03E464461374273200621714 /* Mobilant-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Mobilant-Info.plist"; sourceTree = "<group>"; };
 		03E464481374273200621714 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		03E4644A1374273200621714 /* Mobilant-Prefix.pch */ = {isa = PBXFileReference; path = "Mobilant-Prefix.pch"; sourceTree = "<group>"; };
+		03E4644A1374273200621714 /* Mobilant-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mobilant-Prefix.pch"; sourceTree = "<group>"; };
 		03E4644B1374273200621714 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		03E4644E1374273200621714 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		03E464501374273200621714 /* MobilantAppDelegate.h */ = {isa = PBXFileReference; path = MobilantAppDelegate.h; sourceTree = "<group>"; };
+		03E464501374273200621714 /* MobilantAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MobilantAppDelegate.h; sourceTree = "<group>"; };
 		03E464511374273200621714 /* MobilantAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobilantAppDelegate.m; sourceTree = "<group>"; };
 		03E464541374273200621714 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		03E4645C137427ED00621714 /* 111-user@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "111-user@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +69,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				038E17FF1377E48F0058A818 /* Foundation.framework in Frameworks */,
+				038E17FD1377E47A0058A818 /* IOKit.framework in Frameworks */,
+				038E17FB1377E4740058A818 /* Security.framework in Frameworks */,
+				036265C313769C92009A06F5 /* AddressBook.framework in Frameworks */,
+				03E1EC361375E3ED005A54E3 /* CoreServices.framework in Frameworks */,
+				03E1EC341375E3DA005A54E3 /* libz.dylib in Frameworks */,
+				03E1EC321375E3CA005A54E3 /* SystemConfiguration.framework in Frameworks */,
+				039F0DFE1375A82C00EECBD2 /* QuartzCore.framework in Frameworks */,
 				03E4643F1374273200621714 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +87,21 @@
 		03E4642F1374273200621714 = {
 			isa = PBXGroup;
 			children = (
+				038E17FE1377E48F0058A818 /* Foundation.framework */,
+				038E17FC1377E47A0058A818 /* IOKit.framework */,
+				038E17FA1377E4740058A818 /* Security.framework */,
+				0331A9E31377DE0300D1ECA7 /* mobilant.icns */,
+				03C43ED71377B4D900AF5F27 /* MLFieldEditor.h */,
+				03C43ED81377B4D900AF5F27 /* MLFieldEditor.m */,
+				036265C213769C92009A06F5 /* AddressBook.framework */,
+				03E1EC431375F061005A54E3 /* SMSClient.h */,
+				03E1EC441375F061005A54E3 /* SMSClient.m */,
+				03E1EC461375F06F005A54E3 /* MobilantClient.h */,
+				03E1EC471375F06F005A54E3 /* MobilantClient.m */,
+				03E1EC351375E3ED005A54E3 /* CoreServices.framework */,
+				03E1EC331375E3DA005A54E3 /* libz.dylib */,
+				03E1EC311375E3C9005A54E3 /* SystemConfiguration.framework */,
+				039F0DFD1375A82C00EECBD2 /* QuartzCore.framework */,
 				03E464441374273200621714 /* Mobilant */,
 				03E4643D1374273200621714 /* Frameworks */,
 				03E4643B1374273200621714 /* Products */,
@@ -82,6 +138,9 @@
 		03E464441374273200621714 /* Mobilant */ = {
 			isa = PBXGroup;
 			children = (
+				0372130913E57D3400D67CE1 /* Mobilant.entitlements */,
+				0372130613E57BAE00D67CE1 /* validatereceipt.h */,
+				0372130713E57BAE00D67CE1 /* validatereceipt.m */,
 				03E464501374273200621714 /* MobilantAppDelegate.h */,
 				03E464511374273200621714 /* MobilantAppDelegate.m */,
 				03E464531374273200621714 /* MainMenu.xib */,
@@ -93,6 +152,7 @@
 		03E464451374273200621714 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				03E4645C137427ED00621714 /* 111-user@2x.png */,
 				03E464461374273200621714 /* Mobilant-Info.plist */,
 				03E464471374273200621714 /* InfoPlist.strings */,
 				03E4644A1374273200621714 /* Mobilant-Prefix.pch */,
@@ -127,6 +187,9 @@
 /* Begin PBXProject section */
 		03E464311374273200621714 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
 			buildConfigurationList = 03E464341374273200621714 /* Build configuration list for PBXProject "Mobilant" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -152,6 +215,8 @@
 				03E464491374273200621714 /* InfoPlist.strings in Resources */,
 				03E4644F1374273200621714 /* Credits.rtf in Resources */,
 				03E464551374273200621714 /* MainMenu.xib in Resources */,
+				03E4645E137427ED00621714 /* 111-user@2x.png in Resources */,
+				0331A9E41377DE0300D1ECA7 /* mobilant.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +229,10 @@
 			files = (
 				03E4644C1374273200621714 /* main.m in Sources */,
 				03E464521374273200621714 /* MobilantAppDelegate.m in Sources */,
+				03E1EC451375F061005A54E3 /* SMSClient.m in Sources */,
+				03E1EC481375F06F005A54E3 /* MobilantClient.m in Sources */,
+				03C43ED91377B4D900AF5F27 /* MLFieldEditor.m in Sources */,
+				0372130813E57BAE00D67CE1 /* validatereceipt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,12 +302,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = Mobilant/Mobilant.entitlements;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Daniel Arndt";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mobilant/Mobilant-Prefix.pch";
 				INFOPLIST_FILE = "Mobilant/Mobilant-Info.plist";
+				OTHER_LDFLAGS = (
+					"-licucore",
+					"-lcrypto",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -248,12 +325,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = Mobilant/Mobilant.entitlements;
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application: Daniel Arndt";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Mobilant/Mobilant-Prefix.pch";
 				INFOPLIST_FILE = "Mobilant/Mobilant-Info.plist";
+				OTHER_LDFLAGS = (
+					"-licucore",
+					"-lcrypto",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -278,6 +363,7 @@
 				03E4645A1374273200621714 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
